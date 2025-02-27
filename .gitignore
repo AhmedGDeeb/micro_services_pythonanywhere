@@ -1,3 +1,10 @@
+# local venv confg
+pyvenv.cfg
+Scripts/
+
+# vscode config
+.vscode
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

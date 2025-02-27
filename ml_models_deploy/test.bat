@@ -1,0 +1,2 @@
+curl -X POST "http://127.0.0.1:8000/ml_ms_api/ml_iris/knn/v01/predict/" -H "Content-Type: application/json" -d "{\"sepal_length\": 5.1, \"sepal_width\": 3.5, \"petal_length\": 1.4, \"petal_width\": 0.2}"
+rem curl -X POST "http://ahmadGhDeeb.pythonanywhere.com/ml_ms_api/ml_iris/knn/v01/predict/"  -H "Content-Type: application/json" -d '{"sepal_length": 5.1,"sepal_width": 3.5,"petal_length": 1.4,"petal_width": 0.2}
